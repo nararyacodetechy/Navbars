@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 225, 225);
+    height: 2000px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 41px;
+    background-color: #000;
+    padding: 5px;
+}
+nav .bbc{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bbc .logo{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bbc .logo i{
+    font-size: 40px;
+}
+.bbc .sign-in{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bbc .sign-in i{
+    font-size: 30px;
+}
+.bbc .sign-in a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.bbc .features{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bbc .features ul li{
+    font-size: 22px;
+    list-style: none;
+    float: left;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.bbc .features ul li a{
+    color: #fff; 
+    text-decoration: none;
+}
